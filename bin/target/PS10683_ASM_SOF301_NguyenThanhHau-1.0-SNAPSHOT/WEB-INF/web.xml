@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <servlet-class>com.poly.servlet.UserController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>com.poly.servlet.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProController</servlet-name>
+        <servlet-class>com.poly.servlet.ProController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CartController</servlet-name>
+        <servlet-class>com.poly.servlet.CartController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserControllerr</servlet-name>
+        <servlet-class>com.poly.servlet.UserControllerr</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FindByIDUser</servlet-name>
+        <servlet-class>com.poly.servlet.FindByIDUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/UserController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProController</servlet-name>
+        <url-pattern>/ProController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CartController</servlet-name>
+        <url-pattern>/CartController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserControllerr</servlet-name>
+        <url-pattern>/UserControllerr</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FindByIDUser</servlet-name>
+        <url-pattern>/FindByIDUser</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>
+      C:\Users\Thanh Hau\Documents\NetBeansProjects\PS10683_ASM_SOF301_NguyenThanhHau\src\main\webapp\Image\
+   </param-value>
+    </context-param>
+</web-app>

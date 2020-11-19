@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-23T18:20:34 ICT" name="Default suite" finished-at="2020-10-23T18:21:35 ICT" duration-ms="61365">
+    <groups>
+      <group name="selenium">
+        <method signature="TestAllSP.Test1()[pri:1, instance:TestSP.TestAllSP@6a370f4]" name="Test1" class="TestSP.TestAllSP"/>
+        <method signature="TestAllSP.Test2()[pri:2, instance:TestSP.TestAllSP@6a370f4]" name="Test2" class="TestSP.TestAllSP"/>
+        <method signature="TestAllSP.Test3()[pri:3, instance:TestSP.TestAllSP@6a370f4]" name="Test3" class="TestSP.TestAllSP"/>
+      </group> <!-- selenium -->
+    </groups>
+    <test started-at="2020-10-23T18:20:34 ICT" name="Default test" finished-at="2020-10-23T18:21:35 ICT" duration-ms="61365">
+      <class name="TestSP.TestAllSP">
+        <test-method is-config="true" signature="suitsetup()[pri:0, instance:TestSP.TestAllSP@6a370f4]" started-at="2020-10-23T18:20:34 ICT" name="suitsetup" finished-at="2020-10-23T18:20:40 ICT" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitsetup -->
+        <test-method signature="Test1()[pri:1, instance:TestSP.TestAllSP@6a370f4]" started-at="2020-10-23T18:20:40 ICT" name="Test1" finished-at="2020-10-23T18:21:21 ICT" duration-ms="41445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:2, instance:TestSP.TestAllSP@6a370f4]" started-at="2020-10-23T18:21:21 ICT" name="Test2" finished-at="2020-10-23T18:21:33 ICT" duration-ms="11728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:3, instance:TestSP.TestAllSP@6a370f4]" started-at="2020-10-23T18:21:33 ICT" name="Test3" finished-at="2020-10-23T18:21:35 ICT" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:TestSP.TestAllSP@6a370f4]" started-at="2020-10-23T18:21:35 ICT" name="suiteTearDown" finished-at="2020-10-23T18:21:35 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- TestSP.TestAllSP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
